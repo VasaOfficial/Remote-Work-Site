@@ -4,16 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <title>Remote Work Site</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <img class="logo" src="images/logos/logo.svg" alt="" />
+
+          <div class="features-arrow">
+            <span class="features">Features</span>
+            <img
+              class="arrow-down"
+              id="featuresArrow"
+              src="images/dropdown icons/icon-arrow-down.svg"
+              alt="icon-arrow-down"
+            />
+          </div>
+          <div class="company-arrow">
+            <span>Company</span>
+            <img
+              class="arrow-down"
+              id="companyArrow"
+              src="images/dropdown icons/icon-arrow-down.svg"
+              alt="arrow-up"
+            />
+          </div>
+          <span>Careers</span>
+          <span>About</span>
+        </div>
+
+        <div class="header-right">
+          <span class="login">Login</span>
+          <div class="register-border">
+            <span class="register">Register</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-open">
+        <div class="features-open hidden">
+          <div class="features-icons">
+            <img src="images/dropdown icons/icon-todo.svg" alt="todo" />
+            <img src="images/dropdown icons/icon-calendar.svg" alt="calendar" />
+            <img
+              src="images/dropdown icons/icon-reminders.svg"
+              alt="reminders"
+            />
+            <img src="images/dropdown icons/icon-planning.svg" alt="planning" />
+          </div>
+
+          <div class="features-text">
+            <span>Todo List</span>
+            <span>Calendar</span>
+            <span>Reminders</span>
+            <span>Planing</span>
+          </div>
+        </div>
+
+        <div class="company-open hidden">
+          <span>History</span>
+          <span>Our Team</span>
+          <span>Blog</span>
+        </div>
+      </div>
+
+      <main>
+        <div class="main-container">
+          <div class="left-side-main">
+            <span class="main-text"
+              >Make <br />
+              remote work</span
+            >
+            <p>
+              Get your team in sync, no matter your location. <br />
+              Streamline processes, create team rituals, and watch productivity
+              soar.
+            </p>
+            <div class="learn-more-btn">
+              <span class="learn-more">Learn more</span>
+            </div>
+          </div>
+          <div class="footer-logos">
+            <img src="images/logos/client-databiz.svg" alt="databiz" />
+            <img
+              src="images/logos/client-audiophile.svg"
+              alt="client-audiophile"
+            />
+            <img src="images/logos/client-meet.svg" alt="client-meet" />
+            <img src="images/logos/client-maker.svg" alt="client-maker" />
+          </div>
+        </div>
+        <img class="front-img" src="images/image-hero-desktop.png" />
+      </main>
+    </div>
+  </body>
 </html>
